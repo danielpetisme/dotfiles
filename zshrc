@@ -52,10 +52,6 @@ export HISTSIZE=500000
 export HISTFILE="$HOME/.history"
 export SAVEHIST=$HISTSIZE
 
-# Aliases
-alias ls='ls -hF'
-alias ll='ls -lAhF'
-
 # PATHS
 export GOLO_HOME=/opt/golo
 export PATH=$PATH:$GOLO_HOME/bin
