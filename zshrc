@@ -52,8 +52,6 @@ export HISTSIZE=500000
 export HISTFILE="$HOME/.history"
 export SAVEHIST=$HISTSIZE
 
-#PROMPT="%{$fg[red]%}%n%{$reset_color%}@%{$fg[blue]%}%m %{$fg_no_bold[yellow]%}%1~ %{$reset_color%}% #"
-
 # Aliases
 alias ls='ls -hF'
 alias ll='ls -lAhF'
@@ -61,3 +59,6 @@ alias ll='ls -lAhF'
 # PATHS
 export GOLO_HOME=/opt/golo
 export PATH=$PATH:$GOLO_HOME/bin
+
+#Boxen
+[ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
