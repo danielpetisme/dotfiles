@@ -56,5 +56,7 @@ export SAVEHIST=$HISTSIZE
 export GOLO_HOME=/opt/golo
 export PATH=$PATH:$GOLO_HOME/bin
 
+export JAVA_HOME=$(/usr/libexec/java_home)
+
 #Boxen
 [ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
