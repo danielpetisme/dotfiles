@@ -1,21 +1,21 @@
 [submodule "vim/bundle/pathogen"]
 	path = vim/bundle/pathogen
-	url = git://github.com/tpope/vim-pathogen.git
+	url = https://github.com/tpope/vim-pathogen.git
 [submodule "vim/bundle/gist"]
 	path = vim/bundle/gist
-	url = git://github.com/mattn/gist-vim.git
+	url = https://github.com/mattn/gist-vim.git
 [submodule "vim/bundle/markdown"]
 	path = vim/bundle/markdown
-	url = git://github.com/tpope/vim-markdown.git
+	url = https://github.com/tpope/vim-markdown.git
 [submodule "vim/bundle/gitv"]
 	path = vim/bundle/gitv
-	url = git://github.com/gregsexton/gitv.git
+	url = https://github.com/gregsexton/gitv.git
 [submodule "vim/bundle/golo"]
 	path = vim/bundle/golo
-	url = git://github.com/jponge/vim-golo.git
+	url = https://github.com/jponge/vim-golo.git
 [submodule "vim/bundle/puppet"]
 	path = vim/bundle/puppet
-	url = git://github.com/puppetlabs/puppet-syntax-vim.git
+	url = https://github.com/puppetlabs/puppet-syntax-vim.git
 [submodule "vim/bundle/fugitive"]
 	path = vim/bundle/fugitive
-	url = git://github.com/tpope/vim-fugitive.git
+	url = https://github.com/tpope/vim-fugitive.git
