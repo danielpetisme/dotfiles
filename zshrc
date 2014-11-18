@@ -55,4 +55,3 @@ export HISTFILE="$HOME/.history"
 export SAVEHIST=$HISTSIZE
 
 # PATHS
-export PATH=$PATH:$GOLO_HOME/bin
