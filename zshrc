@@ -55,3 +55,13 @@ export HISTFILE="$HOME/.history"
 export SAVEHIST=$HISTSIZE
 
 # PATHS
+export BUSAPPS="/cygdrive/c/BUSAPPS"
+export BUSDATA="/cygdrive/c/BUSDATA"
+export BUSTOOLS="/cygdrive/c/BUSTOOLS"
+export WORKSPACE="/cygdrive/c/WORKSPACE"
+
+#PROXY HELL
+export https_proxy=intgk001.car.michelin.com:8000
+
+#THIS MUST BE AT THE END OF THE FILE FOR GVM TO WORK!!!
+[[ -s "$HOME/.gvm/bin/gvm-init.sh" ]] && source "$HOME/.gvm/bin/gvm-init.sh"
