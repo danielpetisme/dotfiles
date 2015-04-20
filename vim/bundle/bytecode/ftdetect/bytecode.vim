@@ -34,7 +34,7 @@ syn keyword bcKeyword i2b i2c i2s lcmp fcmpl fcmpg dcmpl dcmpg
 syn keyword bcKeyword ifeq ifne iflt ifge ifgt ifle if_icmpeq if_icmpne
 syn keyword bcKeyword if_icmplt if_icmpge if_icmpgt if_icmple if_acmpeq if_acmpne goto jsr
 syn keyword bcKeyword ret tableswitch lookupswitch ireturn lreturn freturn dreturn areturn
-syn keyword bcKeyword return getstatic putstatic getfield putfield invokevirtual invokespecial invokestatic
+syn keyword bcKeyword return getstatic putstatic getfield putfield invokevirtual invokespecial invokestatic invokedynamic
 syn keyword bcKeyword invokeinterface new newarray anewarray arraylength athrow checkcast instanceof
 syn keyword bcKeyword monitorenter monitorexit wide multianewarray ifnull ifnonnull goto_w jsr_w
 syn keyword bcKeyword breakpoint ldc_quick ldc_w_quick ldc2_w_quick getfield_quick putfield_quick getfield2_quick putfield2_quick
